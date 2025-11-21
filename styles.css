@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  background-color: #2E314C;
+  color: linen;
+  margin: 0;
+}
+
+h1, p {
+  text-align: center;
+}
+
+#Palindrome-checker, #Palindrome-definition {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 20px; 
+}
+
+#Palindrome-checker {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 0 10px 10px 0 #18CA97;
+}
+
+#Palindrome-checker p:not(#result) {
+  font-size: 16px;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 
+  40px;
+}
+
+#text-input {
+  border: none;
+  border-bottom: 2px solid #18CA97;
+  width: 300px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#check-btn {
+  border: none;
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #18CA97;
+  color: linen;
+  cursor: pointer;
+}
+
+#Palindrome-definition {
+  background-color: #3A9D16;
+  padding: 3px 28px;
+  margin-top: 30px;
+}
+
+@media (max-width: 500px) {
+  #Palindrome-checker, #Palindrome-definition {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #text-input {
+    width: 100%;
+  }
+}
